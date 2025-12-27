@@ -100,15 +100,11 @@ Helpful docs:
 Your Redirect URI in Spotify Dashboard must **exactly match** the one in `my_data.py`.
 
 This project uses:
-- `http://localhost:8888/callback`
-
-⚠️ Spotify may require loopback IP instead of `localhost` in some cases:
 - `http://127.0.0.1:8888/callback`
 
 Steps:
 1. In your Spotify app settings, find **Redirect URIs**
-2. Add one of these:
-   - `http://localhost:8888/callback`
+2. Add:
    - `http://127.0.0.1:8888/callback`
 3. Save changes.
 
@@ -240,4 +236,5 @@ If this tool helped you:
 - Star ⭐ the repository
 - Share feedback or open an issue
 - Contribute improvements or fixes
+
 

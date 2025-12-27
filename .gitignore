@@ -1,0 +1,12 @@
+# Archivos de credenciales 
+my_data.py
+secrets.py
+.env
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos de caché de las librerías
+.cache
+.cache-*
